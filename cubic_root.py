@@ -2,6 +2,7 @@ def improve(n, result):
     result = ((n / (result ** 2)) + (2 * result)) / 3
     return result
 
+
 def cub_root(n):
     result = 1
 
@@ -15,4 +16,4 @@ def cub_root(n):
     return round(result, 3)
 
 
-print(cub_root(27))
+print(cub_root(125))
