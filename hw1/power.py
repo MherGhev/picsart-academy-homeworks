@@ -1,8 +1,8 @@
 def pow(base, exp):
     if base == 0:
-        if(exp < 0):
+        if exp < 0:
             return "Cannot divide by zero"
-        elif(exp == 0):
+        elif exp == 0:
             return "undefined"
         else: return 1
 
