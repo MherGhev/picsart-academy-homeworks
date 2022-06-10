@@ -1,4 +1,12 @@
 def pow(base, exp):
+    if base == 0:
+        if(exp < 0):
+            return "Cannot divide by zero"
+        elif(exp == 0):
+            return "undefined"
+        else: return 1
+
+
     if exp > 0:
         result = 1
         while exp > 0:
@@ -13,8 +21,6 @@ def pow(base, exp):
         result = 1/result
     
     else: return 1
-
-
 
     return result
 
