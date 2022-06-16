@@ -1,7 +1,4 @@
-def fib(n):
-    if(n < 2):
-        return 1
-    else:
-        return fib(n-2) + fib(n-1)
+def test(a, b):
+    print(a, b)
 
-print(fib(6))
+test(b=8, a="lklkl")
