@@ -29,8 +29,8 @@ def my_map3(func, data1, data2, data3):
 def sum(a, b, c):
     return a + b + c
 
-lst1 = [1, 1, 1, 1]
-lst2 = [4, 3, 2, 1]
+lst1 = [10, 20, 30, 40]
+lst2 = [100, 200, 300, 400]
 
 # print(my_map3(sum, lst, lst1, lst2))
 
