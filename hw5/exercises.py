@@ -3,7 +3,6 @@ def my_filter(func, data):
     return result
 
 def my_map(func, data):
-    result = [None] * len(data)
     result = [func(el) for el in data]
     return result
 
